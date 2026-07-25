@@ -1,34 +1,104 @@
-## See available models
+# Codex CLI - Terminal Commands
 
-**Inside a running session:** type `/model` — it opens a picker showing all models you can switch to live.
+These commands are run directly in your normal terminal (bash, zsh, PowerShell, etc.), before or outside an active Codex session.
 
-**From the terminal (raw catalog):**
+---
+
+## View Available Models
+
+Show every model available to your Codex installation.
+
 ```bash
 codex debug models
 ```
-This prints the full model catalog Codex sees, as JSON. Add `--bundled` if you just want what's built into your current install without refreshing from the server:
+
+Show only the models bundled with your current installation.
+
 ```bash
 codex debug models --bundled
 ```
 
-You can also check the docs' current lineup at any time: https://developers.openai.com/codex/models
+---
 
-## Switch models
+## Start Codex
 
-**At launch**, use `--model` (or the short flag `-m`):
+Start an interactive Codex session.
+
 ```bash
-codex --model gpt-5.4 "refactor the auth module"
+codex
 ```
 
-**Mid-session**, while Codex is already running, just type:
-```
-/model
-```
-then pick from the list — no need to restart.
+---
 
-**Set a default** so you don't have to specify it every time — add this to `~/.codex/config.toml`:
+## Start Codex With a Prompt
+
+Instead of entering interactive mode, immediately give Codex a task.
+
+```bash
+codex "Explain this project"
+```
+
+Example:
+
+```bash
+codex "Refactor my authentication module"
+```
+
+---
+
+## Start Codex Using a Specific Model
+
+Specify the model when launching.
+
+```bash
+codex --model gpt-5.4
+```
+
+or
+
+```bash
+codex -m gpt-5.4
+```
+
+Example:
+
+```bash
+codex -m gpt-5.4 "Refactor the auth module"
+```
+
+---
+
+## Set Your Default Model
+
+Edit your configuration file.
+
+Location:
+
+```text
+~/.codex/config.toml
+```
+
+Example:
+
 ```toml
 model = "gpt-5.4"
 ```
 
-A quick note: model names/availability change often (new snapshots roll out regularly), so `codex debug models` or `/model` will always show you what's *actually* available right now rather than relying on a static list.
+Now every new Codex session uses this model unless you override it.
+
+---
+
+## Official Model List
+
+Current official models:
+
+https://developers.openai.com/codex/models
+
+Note:
+Model names change over time, so use
+
+```bash
+codex debug models
+```
+
+to see what is actually available on your machine.
