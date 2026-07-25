@@ -14,6 +14,8 @@ The tutorial describes Wireshark as an all-in-one desktop interface. Its importa
 
 Selecting a field in Packet Details highlights its corresponding bytes in Packet Bytes.
 
+<img width="834" height="356" alt="image" src="https://github.com/user-attachments/assets/aa9d410b-e6d8-41b0-8595-273cbfae3d26" />
+
 ## Loading captures
 
 Wireshark can open .pcap, .cap, and .pcapng packet-capture files through:
