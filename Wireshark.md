@@ -32,6 +32,8 @@ The tutorial uses:
 
 ## Packet coloring
 
+<img width="1378" height="558" alt="image" src="https://github.com/user-attachments/assets/085fc083-19d2-4d6b-b556-e919ba0df94f" />
+
 Packet rows are colored to make different protocols and conditions recognizable.
 
 Two kinds of coloring are described:
@@ -50,6 +52,8 @@ Relevant controls include:
 Users can create custom permanent colors using display-filter expressions.
 
 ## Live traffic capture
+
+<img width="1367" height="604" alt="image" src="https://github.com/user-attachments/assets/e27e14ab-5fe8-4807-bf07-ebe42ed6c31d" />
 
 The toolbar uses colored capture controls:
 
@@ -357,6 +361,8 @@ The article uses this workflow to extract a text file containing the name PACKET
 - Expand/collapse arrows: expose or hide protocol fields.
 - Packet right-click menu: context-sensitive filtering, marking, comments, exporting, and stream commands.
 - Status bar: reports total and displayed packet counts and other capture information.
+
+<img width="1368" height="615" alt="image" src="https://github.com/user-attachments/assets/28ab4496-e0ac-4676-b931-f8192091b072" />
 
 ———
 
