@@ -79,6 +79,10 @@ Workflow:
 
 The merged result must be saved before it becomes a persistent file.
 
+<img width="890" height="1210" alt="image" src="https://github.com/user-attachments/assets/499c14c4-e4b1-49d1-b14e-9f33dfe1d1b5" />
+<img width="890" height="1210" alt="image" src="https://github.com/user-attachments/assets/d30286f1-71da-4f36-8a82-ac093a672fcd" />
+<img width="890" height="1210" alt="image" src="https://github.com/user-attachments/assets/cac05d83-7452-4401-a129-5342dbb47893" />
+
 ## Capture File Properties
 
 Statistics → Capture File Properties displays information such as:
@@ -91,6 +95,8 @@ Statistics → Capture File Properties displays information such as:
 - Capture comments.
 
 The same dialog can reportedly be reached through a capture-file icon at the bottom-left of the window.
+
+<img width="825" height="893" alt="image" src="https://github.com/user-attachments/assets/6b99ed42-5d7f-452c-8da9-8025abd48af0" />
 
 ## Packet dissection
 
@@ -196,6 +202,10 @@ The dialog includes information such as:
 
 These are analytical hints, not confirmed security incidents. False positives and false negatives remain possible.
 
+<img width="1051" height="224" alt="image" src="https://github.com/user-attachments/assets/79edc4cf-d654-467f-a3e7-e4164a2f4199" />
+<img width="1052" height="141" alt="image" src="https://github.com/user-attachments/assets/605fd1da-1a04-480a-aa19-148aba9cedbc" />
+
+
 ## Filtering
 
 ### Capture filters
@@ -221,6 +231,9 @@ Right-click a visible protocol field and select Apply as Filter. Wireshark:
 3. Immediately executes it.
 4. Shows matching packets and hides the rest.
 
+<img width="1100" height="413" alt="image" src="https://github.com/user-attachments/assets/ba351cbd-24c2-4347-aa8d-254b234d8a72" />
+
+
 ### Conversation Filter
 
 Filters for all packets belonging to a related endpoint conversation, typically using address and port information.
@@ -230,19 +243,27 @@ Accessible through:
 - Analyze → Conversation Filter.
 - Right-click menu.
 
+<img width="1100" height="464" alt="image" src="https://github.com/user-attachments/assets/bc200e74-8905-4194-ac63-0601fa7d8b9a" />
+
+
 ### Colourise Conversation
 
 Highlights a conversation without hiding unrelated packets. Reset the temporary coloring through the View menu.
+<img width="1100" height="917" alt="image" src="https://github.com/user-attachments/assets/ca4514f5-7d34-476f-bf07-f27e0279ab03" />
+
 
 ### Prepare as Filter
 
 Creates a filter expression but does not immediately execute it. The user can extend it with logical conditions such as and or or, then press Enter.
+<img width="1100" height="820" alt="image" src="https://github.com/user-attachments/assets/b86c87d1-13f9-4386-83cf-b9d60849985a" />
+
 
 ### Apply as Column
 
 Turns a selected packet field into a Packet List column, allowing that value to be compared across many packets.
 
 Columns can be enabled or disabled from the Packet List’s column-header controls.
+<img width="1100" height="411" alt="image" src="https://github.com/user-attachments/assets/23db8ff1-ca1f-41f5-9cbc-e2dcb49d9eb3" />
 
 ### Follow Stream
 
@@ -256,6 +277,7 @@ The article describes:
 - Automatic creation of a stream display filter.
 
 The filter bar’s X button clears the generated filter and restores the full packet list. Unencrypted streams may expose sensitive information, including usernames and passwords.
+<img width="1100" height="425" alt="image" src="https://github.com/user-attachments/assets/16af3d60-5e1b-4770-91fc-4439087c7c06" />
 
 ———
 
